@@ -17,7 +17,7 @@ public class FunRestController {
 
     // expose new endpoint for "teaminfo"
 
-    @GetMapping("/team info")
+    @GetMapping("/teaminfo")
     public String getTeamInfo(){
         return "Coach: " + coachName + ", Team name: " + teamName;
     }
