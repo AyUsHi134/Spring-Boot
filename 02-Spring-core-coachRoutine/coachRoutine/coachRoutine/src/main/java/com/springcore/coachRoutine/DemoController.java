@@ -23,7 +23,7 @@ public class DemoController {
     }
 
     @GetMapping("/")
-    public String getDailyWork() {
+    public String getDaily() {
         return myCoach.getDailyWorkout();
     }
 }
